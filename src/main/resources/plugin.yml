@@ -1,0 +1,14 @@
+name: Bowfighters
+main: pl.dans.plugins.bowfighters.Bowfighters
+version: 1.0
+  
+commands:
+  bf:
+    description: Basic commands for bowfighters
+    usage: /<command> <subcommand>
+    permission: Bowfighters.basic
+    permission-message: You don't have <permission>
+permissions:
+    Bowfighters.basic:
+        description: Allows use of the commands in the plugin
+        default: op
